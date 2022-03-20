@@ -1,6 +1,10 @@
-const amount = document.querySelector(".people");
-const num = 0;
+const passengers = document.querySelector(".people");
+let defaults = 0;
+
+passengers.innerHTML = "Total: " + defaults;
 
 function increment() {
-    amount.innerHTML = num++;
-}
+    let increments = defaults++;
+
+    passengers.innerHTML = "Total: " + increments;
+} 
