@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;700;900&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
