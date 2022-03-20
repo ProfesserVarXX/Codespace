@@ -28,6 +28,7 @@ body {
 .section .btn {
     background-color: gray;
     border: none;
+    color: white;
     border-radius: 3px;
     margin-top: 20px;
     padding: 10px 25px;
