@@ -4,7 +4,7 @@ let defaults = 0;
 passengers.innerHTML = "Total: " + defaults;
 
 function increment() {
-    let increments = defaults++;
+    let increments = defaults+=10;
 
     passengers.innerHTML = "Total: " + increments;
 } 
