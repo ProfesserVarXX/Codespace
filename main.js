@@ -5,6 +5,5 @@ passengers.innerHTML = "Total: " + defaults;
 
 function increment() {
     let increments = defaults+=1;
-
     passengers.innerHTML = "Total: " + increments;
 } 

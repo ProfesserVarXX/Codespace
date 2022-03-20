@@ -26,7 +26,14 @@ body {
 }
 
 .section .btn {
+    background-color: gray;
+    border: none;
+    border-radius: 3px;
     margin-top: 20px;
-    padding: 8px 20px;
+    padding: 10px 25px;
     font-weight: bold;
+}
+
+.btn:active {
+    background-color: #646464;
 }
