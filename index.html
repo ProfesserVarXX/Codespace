@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Uu.css">
+  <script src="https://kit.fontawesome.com/d3efee6bdf.js" crossorigin="anonymous"></script>
+  <title>Document</title>
 </head>
-<body>
-    <header class="header">
-        <h1 class="about">WELCOME TO MY <br> PEOPLE ON THE TRAIN APP</h1>
-    </header>  
-
-    <section class="section">
-        <h1 class="people"></h1>
-        <button class="btn" onclick="increment()">Button</button> 
-    </section>
-
-    <script src="main.js"></script>
+     
+   <header class="header">
+     <div class="Logo">
+       <h4 class="title">Codespace</h4>
+    <!--   <img src="#" alt="logo">-->
+     </div>
+     
+     <div class="navbar">
+       <!-- <p class="bar" onclick="run()">h</p> -->
+       <i class="fa-solid fa-bars"  id="i" onclick="run()"></i>
+        
+        <div class="nav-content">
+           <ul class="nav">
+             <i class="fa-solid fa-xmark" onclick="disappear()" id="me"></i>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Contact</a></li>
+             <li><a href="#">About</a></li>
+           </ul>
+        </div>
+     </div>
+   </header>
+   
+   <section class="content">
+      <div class="images">
+        <img src="roman-synkevych-vXInUOv1n84-unsplash.jpg" alt="code">
+      </div>
+      
+      <div class="info">
+        <h2>
+          What's your next
+        <div class="main">Project</div>
+        </h2>
+      </div>
+      
+      <div class="buttons">
+        <button class="button">New Codespace</button>
+      </div>
+   </section>
+   <script src="nav.js"></script>
 </body>
 </html>
