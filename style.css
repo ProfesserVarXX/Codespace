@@ -1,40 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;700;900&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 
 body {
-    background: url("https://images.unsplash.com/photo-1523295069122-73503b6612a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80");
-    background-repeat: no-repeat;
-    color: white;
-    font-family: "Source Sans Pro", sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 150px;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  color: white;
+ /* border-radius: 5px;*/
 }
 
-.header h1 {
-    text-align: center;
+.Logo h4 {
+  color: white;
+/*  font-size: 20px; */
+  width: 200px; 
+}  
+
+.navbar i {
+  color: white;
+  font-size: 20px;
 }
 
-.section {
-    text-align: center;
+.navbar i:hover {
+  color: grey;
+  transition: all .5s ease-out;
 }
 
-.section .btn {
-    background-color: gray;
-    border: none;
-    color: white;
-    border-radius: 3px;
-    margin-top: 20px;
-    padding: 10px 25px;
-    font-weight: bold;
+.images {
+  display: flex;
+  justify-content: center;
 }
 
-.btn:active {
-    background-color: #646464;
+.images img {
+  width: 500px;
+  height: 290px;
+  border-radius: 55px;
+  border: none;
+  opacity: 80%;
+  padding: 50px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.info h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  border: none;
+  height: 40px;
+  width: 200px;
+  color: black;
+  font-weight: bold;
+  background-color: #EA6802;
+}
+
+.buttons button:hover {
+  background-color:  #934304;
+  color: white;
+  transition: all 1s ease;
+}
+
+.info .main {
+  color: #EA6802;
+}
+
+.nav-content {
+  background-color: #313131;
+  padding: 300px 30px 300px 30px;
+  position: relative;
+  left: 40px;
+  bottom: 200px;
+  display: none;
+  animation: move 2s ease;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(200px);
+}
+  to {
+    transform: translateX(0px);
+}
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-content ul {
+  list-style: none;
+}
+
+.nav li {
+  padding: 50px;
+}
+
+#me {
+  position: relative;
+  bottom: 100px;
+  left: 140px;
 }
